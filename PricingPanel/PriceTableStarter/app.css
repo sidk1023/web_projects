@@ -1,0 +1,53 @@
+
+
+body{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+   
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+} 
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 3%;
+    width: 100%;
+    max-width: 960px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pricing-plan { 
+    border-bottom: 1px solid #e1f1ff;
+    padding-bottom: 10px;
+}
+.pricing-plan:last-child{
+    border-bottom: none;
+
+}
+
+.pricing-img{
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 100%;
+
+}
+.pricing-header{
+    color: #888;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+ .pricing-features{
+     margin: 50px 0 25px;
+     color: #016ff9
+ }

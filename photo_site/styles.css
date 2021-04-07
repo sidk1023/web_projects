@@ -1,0 +1,23 @@
+img{
+    width: 30%;
+    margin: calc(10%/6);
+    transition: color 0.2s, border 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+body{
+    margin:auto;
+}
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    padding: 0.5em 0;
+    
+}
+img:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(83, 83, 80);
+    transform: translateY(-0.2em);
+    cursor: pointer;  
+}
