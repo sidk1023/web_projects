@@ -1,0 +1,13 @@
+div.card{
+    max-width: 750px;
+    margin:auto;
+}
+h1{
+    font-size: 4em;
+}
+.card{
+    margin-top: 15px;
+}
+div.card-content{
+    text-align: center;
+}
