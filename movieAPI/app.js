@@ -21,7 +21,7 @@ async function getMovie(param){
         
         
 
-        p.innerHTML = `${movie.data.Title} <br> ${movie.data.Country}<br>${movie.data.Plot}`;
+       
     }catch(error){
         console.error(error);
     }
