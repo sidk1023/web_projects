@@ -33,6 +33,6 @@ const button = document.querySelector('button');
 button.addEventListener('click',()=>{
     if (inputBox.value){const text = inputBox.value;
         getMovie(text);
-        inputBox.innerText = ''}
+        inputBox.value = '';}
     
 })

@@ -4,6 +4,7 @@ h1{
 .container-sm{
     margin:auto ;
     max-width: 660px;
+    background-color: #ADE1DA;
     
 }
 div{
@@ -15,4 +16,7 @@ div span{
     font-weight: normal;
     font-size: 1rem;
 
+}
+.main{
+    background-color: #F6F1E2;
 }
