@@ -2,7 +2,7 @@
 
 async function getMovie(param){
     try{
-        const movie = await axios.get('http://www.omdbapi.com/?i=tt3896198&apikey=b8394027',{params:{t:param}});
+        const movie = await axios.get('https://www.omdbapi.com/?i=tt3896198&apikey=b8394027',{params:{t:param}});
         console.log(movie.data);
         const title = document.querySelector('#title');
         const release = document.querySelector('#release');
