@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.container-sm{
+    margin:auto ;
+    max-width: 660px;
+    
+}
+div{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+div span{
+    font-weight: normal;
+    font-size: 1rem;
+
+}
